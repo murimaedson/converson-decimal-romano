@@ -14,8 +14,8 @@ public class Numero {
 		int restoCentenas = restoQuinhentos % 100;
 		int restoCinquentas = restoCentenas % 50;
 		int restoDezenas = restoCinquentas % 10;
-		int restoCincos = restoDezenas % 5;
-		return restoCincos;
+		//int restoCincos = restoDezenas % 5;
+		return restoDezenas;
 	}
 
 	public int getCincos() {
@@ -31,8 +31,8 @@ public class Numero {
 		int restoMilhares = valor % 1000;
 		int restoQuinhentos = restoMilhares % 500;
 		int restoCentenas = restoQuinhentos % 100;
-		int restoCinquentas = restoCentenas % 50;
-		return restoCinquentas / 10;
+		//int restoCinquentas = restoCentenas % 50;
+		return restoCentenas / 10;
 	}
 
 	public int getCinquentas() {
@@ -44,8 +44,8 @@ public class Numero {
 
 	public int getCentenas() {
 		int restoMilhares = valor % 1000;
-		int restoQuinhentos = restoMilhares % 500;
-		return restoQuinhentos / 100;
+		//int restoQuinhentos = restoMilhares % 500;
+		return restoMilhares / 100;
 	}
 
 	public int getQuinhentas() {
