@@ -7,7 +7,7 @@ public class Teste {
 
 	public static void main(String[] args) {
 		Numero numero = new Numero();
-		numero.setValor(3483);
+		numero.setValor(5000);
 		// System.out.println(numero.getDezenas());
 		Servicos servicos = new Servicos(numero);
 
