@@ -1,6 +1,6 @@
 package mz.com.cedsif.conversor.Modelo;
 
-public class Numero {
+public class NumeroDecimal {
 
 	private int valor;
 	

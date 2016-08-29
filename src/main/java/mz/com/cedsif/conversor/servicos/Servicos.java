@@ -1,11 +1,11 @@
 package mz.com.cedsif.conversor.servicos;
 
-import mz.com.cedsif.conversor.Modelo.Numero;
+import mz.com.cedsif.conversor.Modelo.NumeroDecimal;
 
 public class Servicos {
-	private Numero numero;
+	private NumeroDecimal numero;
 
-	public Servicos(Numero numero) {
+	public Servicos(NumeroDecimal numero) {
 		// TODO Auto-generated constructor stub
 		this.numero = numero;
 	}

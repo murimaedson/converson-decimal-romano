@@ -7,11 +7,11 @@ import org.junit.Test;
 
 public class NumeroTest {
 
-	private Numero numero;
+	private NumeroDecimal numero;
 
 	@Before
 	public void setUp() {
-		numero = new Numero();
+		numero = new NumeroDecimal();
 	}
 
 	@Test

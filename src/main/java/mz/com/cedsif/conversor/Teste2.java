@@ -2,7 +2,7 @@ package mz.com.cedsif.conversor;
 
 import javax.swing.JOptionPane;
 
-import mz.com.cedsif.conversor.Modelo.Numero;
+import mz.com.cedsif.conversor.Modelo.NumeroDecimal;
 import mz.com.cedsif.conversor.servicos.Servicos;
 
 public class Teste2 {
@@ -11,7 +11,7 @@ public class Teste2 {
 		String numeroStr=JOptionPane.showInputDialog("Introduza o Numero");
 		int numeroIntroduzido=Integer.parseInt(numeroStr);
 		
-		Numero numero = new Numero();
+		NumeroDecimal numero = new NumeroDecimal();
 		numero.setValor(numeroIntroduzido);
 		
 		Servicos servicos = new Servicos(numero);

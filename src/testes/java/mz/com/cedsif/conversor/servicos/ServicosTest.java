@@ -1,7 +1,7 @@
 package mz.com.cedsif.conversor.servicos;
 
 import static org.junit.Assert.*;
-import mz.com.cedsif.conversor.Modelo.Numero;
+import mz.com.cedsif.conversor.Modelo.NumeroDecimal;
 
 import org.junit.Before;
 import org.junit.Test;
@@ -9,11 +9,11 @@ import org.junit.Test;
 public class ServicosTest {
 
 	private Servicos servico;
-	private Numero numero;
+	private NumeroDecimal numero;
 
 	@Before
 	public void setUp() {
-		numero = new Numero();
+		numero = new NumeroDecimal();
 	}
 
 	@Test

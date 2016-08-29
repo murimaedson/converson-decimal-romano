@@ -1,12 +1,12 @@
 package mz.com.cedsif.conversor;
 
-import mz.com.cedsif.conversor.Modelo.Numero;
+import mz.com.cedsif.conversor.Modelo.NumeroDecimal;
 import mz.com.cedsif.conversor.servicos.Servicos;
 
 public class Teste {
 
 	public static void main(String[] args) {
-		Numero numero = new Numero();
+		NumeroDecimal numero = new NumeroDecimal();
 		numero.setValor(3483);
 		// System.out.println(numero.getDezenas());
 		Servicos servicos = new Servicos(numero);
