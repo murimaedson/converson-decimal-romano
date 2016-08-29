@@ -56,5 +56,9 @@ public class NumeroDecimal {
 	public int getMilhares() {
 		return valor / 1000;
 	}
+	
+	public int getValor() {
+		return valor;
+	}
 
 }
