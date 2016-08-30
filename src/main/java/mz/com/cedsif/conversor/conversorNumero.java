@@ -8,9 +8,8 @@ import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.swing.JOptionPane;
 
-import mz.com.cedsif.conversor.Modelo.Numero;
+import mz.com.cedsif.conversor.Modelo.NumeroDecimal;
 import mz.com.cedsif.conversor.servicos.Servicos;
 
 @WebServlet("/conversorNumero")
@@ -24,7 +23,7 @@ public class conversorNumero extends HttpServlet{
 		int valor=Integer.parseInt(valorString);
 		
 		
-		Numero numero = new Numero();
+		NumeroDecimal numero = new NumeroDecimal();
 		numero.setValor(valor);
 		
         Servicos servicos = new Servicos(numero);
